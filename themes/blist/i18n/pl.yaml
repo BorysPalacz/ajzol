@@ -1,0 +1,97 @@
+# Content
+- id: postedOnDate
+  translation: "Post z dnia {{ . }}"
+- id: lastModified
+  translation: "(Ostatnia modyfikacja {{ . }})"
+- id: translationsLabel
+  translation: "Inne języki: "
+- id: translationsSeparator
+  translation: ", "
+- id: readMore
+  translation: "Czytaj więcej"
+- id: morePosts
+  translation: "Więcej postów"
+- id: olderPosts
+  translation: "Starsze posty"
+- id: newerPosts
+  translation: "Nowsze posty"
+- id: previousPost
+  translation: "Poprzedni post"
+- id: nextPost
+  translation: "Następny post"
+- id: readTime
+  translation: "minut"
+- id: words
+  translation: "słów"
+
+# Date
+- id: January
+  translation: "Styczeń"
+- id: February
+  translation: "Luty"
+- id: March
+  translation: "Marzec"
+- id: April
+  translation: "Kwiecień"
+- id: May
+  translation: "Maj"
+- id: June
+  translation: "Czerwiec"
+- id: July
+  translation: "Lipiec"
+- id: August
+  translation: "Sierpień"
+- id: September
+  translation: "Wrzesień"
+- id: October
+  translation: "Październik"
+- id: November
+  translation: "Listopad"
+- id: December
+  translation: "Grudzień"
+
+# 404 page
+- id: pageNotFound
+  translation: "Ups, strona nieistnieje (404 Error)"
+
+# Footer
+- id: poweredBy # Accepts HTML
+  translation: '<a href="https://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> przy użyciu &nbsp;&bull;&nbsp; szablonu <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> angepasst von <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>'
+
+# Navigation
+- id: toggleNavigation
+  translation: "Nawigacja"
+- id: languageSwitcherLabel
+  translation: "Język"
+- id: gcseLabelShort
+  translation: "Szukaj"
+- id: gcseLabelLong
+  translation: "Szukaj {{ .Site.Title }}"
+- id: gcseClose
+  translation: "Zamknij"
+
+# Staticman
+- id: noComment
+  translation: "Brak komentarzy"
+- id: oneComment
+  translation: "Komentarz"
+- id: moreComment
+  translation: "Komentarze"
+- id: useMarkdown
+  translation: "Możesz użyć składni języka Markdown"
+- id: yourName
+  translation: "Twoje imie"
+- id: yourEmail
+  translation: "Twoje nazwisko"
+- id: yourWebsite
+  translation: "Twoja strona"
+
+# Delayed Disqus
+- id: show
+  translation: "Pokaż"
+- id: comments
+  translation: "Komentarze" 
+
+# Related posts
+- id: seeAlso
+  translation: "Zobacz również"

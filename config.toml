@@ -4,7 +4,7 @@ title = "Blist Multilingual Theme"
 theme = "blist"
 
 DefaultContentLanguage = "pl"
-DefaultContentLanguageInSubdir = true
+DefaultContentLanguageInSubdir = false
 [languages]
   [languages.en]
     contentDir = "content/en" #English
@@ -14,7 +14,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Hey! I'm Katheryn Fox"
       introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
       introPhoto = "/picture.jpg"
-      logo = "/blist-logo.png"
+      logo = "/1.svg"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
@@ -26,8 +26,8 @@ DefaultContentLanguageInSubdir = true
         weight = 2
 
     [[languages.en.menu.main]]
-        name = "Tags"
-        url = "tags"
+        name = "Categories"
+        url = "category"
         weight = 3
 
     [[languages.en.menu.main]]
@@ -45,20 +45,20 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Jestem katrina"
       introSubtitle = "26 latek mam"
       introPhoto = "/picture.jpg"
-      logo = "/logo.svg"
+      logo = "/2.svg"
     [[languages.pl.menu.main]]
         name = "Blog"
         url = "blog"
         weight = 1
 
     [[languages.pl.menu.main]]
-        name = "O nas"
-        url = "page/about/"
+        name = "O mnie"
+        url = "strona/omnie/"
         weight = 2
 
     [[languages.pl.menu.main]]
-        name = "Tags"
-        url = "tags"
+        name = "Kategorie"
+        url = "kategorie"
         weight = 3
 
   # [languages.dy]
@@ -74,7 +74,7 @@ DefaultContentLanguageInSubdir = true
   enableSearch = true
 
   # Custom copyright - optional
-  copyright = "Copyright © 2021 - Katheryn Fox · All rights reserved"
+  copyright = "Copyright © 2022 - Borys Palacz · All rights reserved"
   favicon = "/favicon.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
