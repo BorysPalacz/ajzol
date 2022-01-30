@@ -1,0 +1,100 @@
+/* Custom Styles */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Fonts */
+
+/* inter-300 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/fonts/inter-v3-latin-300.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/fonts/inter-v3-latin-300.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/inter-v3-latin-300.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("/fonts/inter-v3-latin-300.woff")
+      format("woff"),
+    /* Modern Browsers */ url("/fonts/inter-v3-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("/fonts/inter-v3-latin-300.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+/* inter-500 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/inter-v3-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/fonts/inter-v3-latin-500.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/inter-v3-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("/fonts/inter-v3-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("/fonts/inter-v3-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("/fonts/inter-v3-latin-500.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+/* inter-700 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/inter-v3-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/fonts/inter-v3-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/inter-v3-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("/fonts/inter-v3-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("/fonts/inter-v3-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("/fonts/inter-v3-latin-700.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+
+.wrapper {
+  padding: 2rem;
+}
+
+.cookie-container {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background: #2f3640;
+  color: #f5f6fa;
+  padding: 0 32px;
+  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+
+  transition: 400ms;
+}
+
+.cookie-container.active {
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cookie-container>p {
+  margin-top: .5rem;
+}
+
+.cookie-container a {
+  color: #f5f6fa;
+}
+
+.cookie-btn {
+  margin-top: 1rem;
+  background: #e84118;
+  border: 0;
+  color: #f5f6fa;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
