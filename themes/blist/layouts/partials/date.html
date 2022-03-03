@@ -1,4 +1,4 @@
-{{ if eq "de" .language.Lang }}
+{{ if eq "pl" .language.Lang }}
   {{ if eq "long" .format }}
     {{ .date.Format "02" }}. {{ i18n (.date.Format "January")}} {{ .date.Format "2006"}}
   {{ else }}
